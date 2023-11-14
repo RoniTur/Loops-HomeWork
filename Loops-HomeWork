@@ -1,0 +1,51 @@
+Targil 1:
+import java.util.Scanner;
+class HelloWorld 
+{
+    public void Targil1()
+    {
+        double sum = 0;
+        Scanner scan = new Scanner(System.in);
+        for(int i=0; i<5; i++)
+        {
+            System.out.println("Enter a grade");
+            int grade = scan.nextInt();
+            sum = sum + grade;
+        }
+        double avg = sum/5;
+        System.out.println(avg);
+    }
+    public static void main(String[] args) 
+    {
+        HelloWorld ex1 = new HelloWorld();
+        ex1.Targil1();
+    }
+}
+
+Targil 2:
+import java.util.Scanner;
+class HelloWorld 
+{
+    public void Targil2()
+    {
+        int count = 0;
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter a word");
+        String word = scan.nextLine();
+        while( !word.equals ("enter") )
+        {
+            count = count + 1;
+            System.out.println("Enter a word");
+            word = scan.nextLine();
+        }
+        count = count + 1;
+        System.out.println(count);
+    }
+    public static void main(String[] args) 
+    {
+        HelloWorld ex2 = new HelloWorld();
+        ex2.Targil2();
+    }
+}
+
+Targil 3:
