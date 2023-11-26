@@ -81,6 +81,9 @@ public class Ex4
 	public static void main(String[] args) 
 	{
 		Ex4 ex4 = new Ex4();
-        ex4.Targil4("abcd");
+                ex4.Targil4("abcd");
 	}
 }
+
+
+Targil 5:
